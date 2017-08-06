@@ -1,0 +1,38 @@
+
+.TaskItem {
+  padding: 5px 5px;
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #F8F8F8 98%);
+  border-bottom: 1px solid #D5D5D5;
+}
+
+.TaskItem__content {
+  color: #444444;
+}
+
+.TaskItem__content h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #2E6F7D;
+}
+
+.TaskItem__control {
+  padding-left: 30px;
+}
+
+.TaskItem__control span {
+  line-height: 100px;
+  letter-spacing: 15px;
+  transition: color 100ms ease-in-out;
+}
+
+.TaskItem__control span:first-child:hover {
+  color: #2E6F7D;
+  cursor: pointer;
+}
+
+.TaskItem__control span:last-child:hover {
+  color: red;
+  cursor: pointer;
+}
