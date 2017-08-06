@@ -1,24 +1,40 @@
-.App {
-  text-align: center;
+html {
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+  font-family: 'Lato', sans-serif !important;
+  height: 100%;
+  background-image: radial-gradient(50% 110%, #FBDA61 0%, #F9AA43 100%);
+  background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Task {
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.30);
+  border-radius: 10px;
+  margin-top: 70px;
+  padding: 0;
 }
 
-.App-intro {
-  font-size: large;
+.TaskHeader {
+  background: #2E6F7D;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px 15px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.TaskHeader h2 {
+  margin: 0;
+  color: #fff;
+  letter-spacing: 1.6px;
+  font-size: 24px;
+  font-family: 'Dosis', sans-serif !important;
+}
+
+.TaskFooter {
+  background: whitesmoke;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 15px;
 }

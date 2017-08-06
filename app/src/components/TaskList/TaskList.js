@@ -1,8 +1,8 @@
 import React from 'react';
 import FlipMove from 'react-flip-move'; //animations
 
-import TaskItem from '../tasklist/tasklist';
-import './tasklist.css';
+import TaskItem from '../TaskItem/TaskItem';
+import './TaskList.css';
 
 export default ({tasks, handleEdit, handleDelete}) => ( // event handlers
   <div className='TaskList clearfix'>
