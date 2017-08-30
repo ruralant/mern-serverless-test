@@ -1,4 +1,4 @@
-#Progressive Serverless MERN Web App
+# Progressive Serverless MERN Web App
 
 ![](./app/public/pwa-logo.png)
 ![](./app/public/react-logo.jpg)
