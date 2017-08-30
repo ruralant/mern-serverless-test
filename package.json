@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run create -- --watch",
-    "create": "wt create index --bundle"
+    "create": "wt create index --bundle",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Antonio Rossi",
   "license": "MIT",
@@ -14,6 +16,8 @@
     "express": "^4.15.3",
     "mongoose": "^4.11.5",
     "react-modal": "^2.2.2",
-    "webtask-tools": "^3.2.0"
-  }
+    "webtask-tools": "^3.2.0",
+    "snyk": "^1.40.2"
+  },
+  "snyk": true
 }
