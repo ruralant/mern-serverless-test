@@ -6,3 +6,6 @@ patch:
   'npm:ms:20170412':
     - webtask-tools > jsonwebtoken > ms:
         patched: '2017-08-30T09:09:30.381Z'
+  'npm:debug:20170905':
+    - mongoose > mquery > debug:
+        patched: '2017-09-27T01:45:07.676Z'
